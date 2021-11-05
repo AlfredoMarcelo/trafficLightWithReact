@@ -8,7 +8,9 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<>
-			<Semaforo />
+			<div className="banner-image w-100 vh-100">
+				<Semaforo />
+			</div>
 		</>
 	);
 };
